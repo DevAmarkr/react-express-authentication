@@ -1,0 +1,131 @@
+.Register__page{
+    width: 30rem;
+    position: relative;
+    left: 15rem;
+    background-color: #171313;
+    border-radius: 1rem;
+    border: none;
+    /* box-shadow: 5px 5px 10px 10px rgb(17, 12, 12); */
+    display: flex;
+    justify-content: center;
+    
+}
+.Register__header{
+   position: absolute;
+   top: 3rem;;
+   display: block
+   
+
+}
+.Register__header >h2{
+    color: #888
+}
+.Register__form{
+   
+    width: 100%;
+    position: absolue;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(126, 125, 125)
+}
+.Register__form >form{
+    width: 100%;
+    
+}
+.Register__form >form .username__box{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    border-top: 1px solid #888;
+    border-right: 1px solid #888;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem
+}
+
+.Register__form >form .username__box > label{
+   margin-right: 1rem;
+   color: #888 
+}
+
+.Register__form >form .username__box > input {
+    padding: .3rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(121, 70, 202);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:#999
+}
+
+.Register__form >form .email__box{
+    position: absolute;
+    left: 20%;
+    top: 39%;
+    border-left: 1px solid #888;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem
+}
+
+.Register__form >form .email__box >label{
+    margin-right: 2.7rem;
+    color: #888 
+}
+
+.Register__form >form .email__box > input {
+    padding: .3rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(121, 70, 202);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:#999
+}
+
+.Register__form >form .password__box{
+    position: absolute;
+    left: 20%;
+    top: 48%;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem
+}
+
+.Register__form >form .password__box >label{
+    margin-right: 1.3rem;
+    color: #888 
+}
+
+.Register__form >form .password__box > input {
+    padding: .3rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(121, 70, 202);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:#999
+}
+.createBtn{
+    position: absolute;
+    bottom: 11rem;
+    left: 6rem;
+    width: 7rem;
+    padding: .6rem;
+    outline: none;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+button :hover{
+    transform: translateY(-4rem);
+    background-color: aqua
+}

@@ -1,0 +1,96 @@
+.Login__Page{
+    width: 30rem;
+    position: relative;
+    left: 8rem;
+    background-color: #171313;
+    border-radius: 1rem;
+    /* box-shadow: 5px 5px 10px 10px rgb(17, 12, 12); */
+    display: flex;
+    justify-content: center
+}
+.login__header{
+    position: absolute;
+    top: 3rem
+    
+}
+.login__header > h2{
+    color: #888
+}
+
+.login__form{
+    width: 100%;
+    position: absolue;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(126, 125, 125)
+}
+.login__form > form{
+ width: 100%
+}
+
+.login__form > form .email__box{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    border-top: 1px solid #888;
+    border-left: 1px solid #888;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem  
+}
+
+.login__form > form .email__box >label{
+    margin-right: 2.7rem;
+    color: #888   
+}
+.email__box > input{
+    padding: .3rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(121, 70, 202);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:#999
+}
+
+
+
+.login__form > form .password__box{
+    position: absolute;
+    left: 20%;
+    top: 46%;
+    border-bottom: 1px solid #888;
+    border-right: 1px solid #888;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem
+}
+
+.login__form > form .password__box >label{
+    margin-right: 1.5rem;
+    color: #888   
+}
+.password__box > input{
+    padding: .3rem;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(121, 70, 202);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:#999
+}
+.loginBtn{
+    position: absolute;
+    bottom: 11rem;
+    left: 6rem;
+    width: 7rem;
+    padding: .6rem;
+    outline: none;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
